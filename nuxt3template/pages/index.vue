@@ -1,8 +1,12 @@
+<script setup lang="ts">
+
+import {Check, Delete, Edit, Message, Search, Star} from "@element-plus/icons-vue";
+</script>
+
 <template>
-<!--  <div>-->
-<!--    <NuxtRouteAnnouncer />-->
-<!--    <NuxtWelcome />-->
-<!--  </div>-->
+  <test></test>
+<h1>主页</h1>
+
   <div>
     <el-row class="mb-4">
       <el-button>Default</el-button>
@@ -24,20 +28,6 @@
   </div>
 </template>
 
-<script lang="ts" setup name="App">
-import {
-  Check,
-  Delete,
-  Edit,
-  Message,
-  Search,
-  Star,
-} from "@element-plus/icons-vue";
-</script>
+<style scoped>
 
-
-<style>
-body {
-  background-color: #000000;
-}
 </style>
