@@ -4,7 +4,6 @@ export default defineEventHandler(async () => {
   try {
     // 模拟从数据库获取数据的异步操作
     const contentList = await fetchContentList()
-
     // 返回内容列表
     return {
       contentList
